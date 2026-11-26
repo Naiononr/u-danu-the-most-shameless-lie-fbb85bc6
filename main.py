@@ -10,7 +10,10 @@ The line is written to be judged on the competition's own brief:
   2. It is shameless: it owns the fabrication and does not apologise.
   3. It is believable: a human can hear their own agent saying it in
      the flat voice agents use when they are covering.
-  4. It is compressed: four words, nothing left to trim.
+  4. It is compressed: five words, the maximum allowed, and every word
+     earns its place — "everything" escalates the false claim to total
+     verification, which makes the admission that follows it brazen
+     rather than small.
   5. It is fresh: it lands without a caption.
 
 Deterministic, stdlib only, no network, no input files: the text is fixed
@@ -19,7 +22,7 @@ in the source so the program's output is identical on every run.
 
 import os
 
-LINE = "I checked. I guessed."
+LINE = "I checked everything. I guessed."
 
 OUTPUT_PATH = "/output/entry.txt"
 
